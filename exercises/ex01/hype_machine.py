@@ -1,5 +1,8 @@
-# TODO: Write docstring here
+"""Designed to speak to user and encourage. str(__730400413__)."""
 
-# TODO: Initialize __author__ variable here
-
-# TODO: Implement your program logic here
+name: str = input("What is your name? ")
+print("You entered: ")
+print(name)
+print(name + " you are awesome")
+print("Keep it up " + name)
+print("Hey " + name + " have a great day")
