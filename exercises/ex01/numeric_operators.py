@@ -1,12 +1,11 @@
-"""Designed to input two varibales into mathematical expressions and state results. str(__730400413__)."""
+"""Designed to input two varibales into mathematical expressions and state results."""
 
-digituno: str = input("digituno? ")
-digitdos: str = input("digitdos? ")
-print("left hand side: " + digituno)
-print("right hand side: " + digitdos)
-int(digituno)
-int(digitdos)
-print(digituno + "%" + digitdos + " is " + str(int(digituno) % int(digitdos)))
-print(digituno + "**" + digitdos + " is " + str(int(digituno) ** int(digitdos)))
-print(digituno + "//" + digitdos + " is " + str(int(digituno) // int(digitdos)))
-print(digituno + "/" + digitdos + " is " + str(int(digituno) / int(digitdos)))
+__author__ = "730400413"
+digit_uno: str = input("Left hand side: ")
+digit_dos: str = input("Right hand side: ")
+int(digit_uno)
+int(digit_dos)
+print(digit_uno + " ** " + digit_dos + " is " + str(int(digit_uno) ** int(digit_dos)))
+print(digit_uno + " / " + digit_dos + " is " + str(int(digit_uno) / int(digit_dos)))
+print(digit_uno + " // " + digit_dos + " is " + str(int(digit_uno) // int(digit_dos)))
+print(digit_uno + " % " + digit_dos + " is " + str(int(digit_uno) % int(digit_dos)))
