@@ -2,11 +2,12 @@
 
 __author__ = "730400413"
 
-counter: int = 0
-letter: str = input("What letter do you want to search for?")
-word: str = input("Enter a word.")
-while counter < len(word):
-    if letter == word:
-        counter = counter + 1
-
-print(counter)
+letter: str = input("What letter do you want to search for?: ")
+word: str = input("Enter a word: ")
+index = 0
+count: int = 0
+while index < len(word):
+    if letter == word[index]:
+        count = count + 1
+    index = index + 1
+print("Count: ") + print(count)

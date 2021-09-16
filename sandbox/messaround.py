@@ -20,3 +20,23 @@ index = 0
 while index < len(word):
 if letter == word[index]
 index = index + 1
+
+
+
+
+x = "hello"
+x[0]=h
+x[1]=e
+
+
+
+
+
+
+
+
+
+
+
+
+
